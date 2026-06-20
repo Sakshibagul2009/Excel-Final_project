@@ -1,129 +1,202 @@
-# 📊 Customer Sales Performance Dashboard - Excel-Based Data Analytics
+# 📊 Sales Analysis Dashboard
 
-This project delivers a highly interactive **Customer Sales Performance Dashboard** built entirely using **Microsoft Excel**. It leverages the power of dynamic charts, pivot tables, slicers, and KPI cards to provide comprehensive analysis of customer transaction data. The dashboard is designed to help businesses track essential metrics like **total revenue**, identify the **top-performing customer**, pinpoint **high-demand product categories**, and analyze **sales trends over time**.
-
----
-
-
-<img width="987" height="520" alt="Screenshot 2026-06-12 153548" src="https://github.com/user-attachments/assets/de09cb43-a364-47e0-8f7c-5f5783aee92b" />
-
----
-## 🎯 Dashboard Objectives
-
-The primary goal of this dashboard is to empower business teams with actionable insights on:
-
-* Total revenue generated over the selected period.
-* The best-performing customer based on revenue contribution.
-* The highest selling product category.
-* Region-wise sales distribution influencing business decisions.
-* Month-wise and Year-over-Year sales trends.
-* Category-wise distribution of quantity sold and total amount.
-* Impact analysis of sales filters on Key Performance Indicators (KPIs) and graphs.
+An interactive **Sales Analysis Dashboard** built using **Microsoft Excel** to analyze sales performance across different regions, product categories, customer segments, and time periods. The dashboard provides meaningful business insights through KPI cards, Pivot Charts, Slicers, and Timeline Filters.
 
 ---
 
-## 🚀 Key Features
+## 📸 Dashboard Preview
 
-### 1. KPI Summary Cards
-A dedicated section for high-level performance indicators that update dynamically:
+<img width="987" height="520" alt="Screenshot 2026-06-12 153548" src="https://github.com/user-attachments/assets/62bbe683-e4ec-4c7b-8c58-c2d5cf5f73f2" />
 
-* **Total Sales:** Displays total revenue generated (₹1,80,096.63).
-* **Top Customer Name:** Shows the customer with the maximum revenue (e.g., Mark Carter).
-* **Top Region:** Identifies the region contributing highest sales (e.g., East).
-* **Total Quantity Sold:** Sum of all purchased units (107 units).
-
-### 2. Dynamic Timeline Filter
-* Allows users to select and analyze sales data by **Year**, **Quarter**, or **Month**.
-* Automatically updates all connected charts and KPI cards for seamless analysis.
-
-### 3. Slicers for Real-Time Filtering
-Users can instantly refresh the entire dashboard by filtering data using the following interactive slicers:
-
-* `Product_Name` (Blender, Bookshelf, Coffee Maker, Desk, Headphones, Keyboard, Laptop, Monitor, Office Chair, Smartphone)
-* `Category` (Appliances, Electronics, Furniture)
-* `Quantity`
-* `Region` (Central, East, North, South, West)
-* `Customer_Name`
 
 ---
 
-## 📉 Visual Charts Included
+## 🎯 Project Objective
 
-The dashboard is populated with dynamic PivotCharts for deep-dive analysis:
+The objective of this dashboard is to:
 
-| Chart Type | Analysis Provided | Insights |
-| :--- | :--- | :--- |
-| **Line/Bar Chart** | Customer-Wise Total Sales. | Identifies individual customer performance and revenue contribution ranking. |
-| **Pie Chart** | Region-Wise Total Sales. | Highlights **East (28%)** as the strongest market, followed by North (21%), West (19%), and South/Central (16% each). |
-| **Horizontal Bar Chart** | Product-Wise Total Sales. | Compares which products contribute most — Laptop (₹67,499) and Smartphone (₹67,199) lead significantly. |
-| **Pie Chart** | Category-Wise Total Quantity. | Shows Electronics dominating at **76%** of total quantity, with Furniture at 24%. |
-
----
-
-## 🧠 Insights You Can Derive
-
-* Identify the **top customer** (Mark Carter) and analyze their purchase patterns.
-* Determine which **product categories** drive maximum revenue and quantity.
-* Pinpoint high-demand (peak) and low-demand (drop) months for planning.
-* Understand which **regions** are the primary revenue contributors.
-* Analyze how changes in quantity sold correlate with total revenue.
-* Track **Year-over-Year performance changes** by using the Timeline filter.
+- Monitor overall sales performance.
+- Analyze revenue across different regions.
+- Compare category-wise sales contribution.
+- Understand customer segmentation.
+- Track monthly sales trends.
+- Enable interactive filtering for better decision-making.
 
 ---
 
-## 📁 Dataset Overview
+## 🚀 Dashboard Features
 
-The dashboard is built upon a dataset containing **200+ customer transaction records** (spanning 2024–2025).
+### 📌 KPI Cards
 
-| Field Name | Description |
-| :--- | :--- |
-| **Transaction ID** | Unique identifier for each transaction. |
-| **Date** | Transaction date (2024–2025). |
-| **Customer ID** | Unique customer identifier. |
-| **Customer Name** | Name of the customer making the purchase. |
-| **Product ID** | Unique product identifier. |
-| **Product Name** | Name of the product purchased. |
-| **Category** | Product type (Appliances, Electronics, Furniture). |
-| **Quantity** | Units purchased. |
-| **Unit Price** | Price of one unit. |
-| **Payment Method** | Mode of payment (Cash, Credit Card, Debit Card, PayPal). |
-| **Region** | Sales region (Central, East, North, South, West). |
-| **Customer Segment** | Customer tier (Basic, Standard, Premium). |
-| **Customer Since** | Date the customer first joined. |
-| **Total Amount** | Calculated as Quantity × Unit Price. |
+The dashboard displays key business metrics:
+
+| KPI | Value |
+|------|------|
+| Total Revenue | ₹2,29,192.47 |
+| Total Orders | 250 |
+| Total Customers | 251 |
+| Average Order Value | ₹916.77 |
+
+These KPI cards update dynamically whenever filters are applied.
 
 ---
 
-## 🛠️ Technologies & Tools Used
+## 🎛️ Interactive Filters
 
-* **Microsoft Excel** (2016 or newer recommended)
-* **PivotTables**
-* **PivotCharts**
-* **Slicers** & **Timeline filter**
-* Conditional Formatting
-* Advanced Excel Formulas for KPI calculation
+### Category Slicer
 
----
+Users can filter data by:
 
-## 📦 How to Use
+- Appliances
+- Electronics
+- Furniture
 
-1.  Open the Excel dashboard file.
-2.  Use the interactive **slicers** (on the right side) to filter the data by Product, Category, Region, Customer Name, etc.
-3.  Use the **Timeline** filter at the top to select specific months, quarters, or years.
-4.  View the **real-time changes** reflected across all KPI cards and charts.
-5.  Filtered views can be easily exported for presentations or reports.
+### Timeline Filter
 
-## 📈 Business Use Cases
+Users can analyze sales by:
 
-* **Retail sales analytics** and reporting.
-* **Customer segmentation** based on region, segment tier, and purchase behavior.
-* **Performance tracking** and incentive planning for regional sales teams.
-* **Product category trend analysis** and inventory management.
-* **Management reporting** and annual business review/forecasting.
+- Year
+- Quarter
+- Month
+
+All charts and KPI cards automatically update based on the selected period.
 
 ---
 
-## 📝 Author
+## 📈 Dashboard Visualizations
+
+### 1️⃣ Revenue by Region
+
+This column chart shows total revenue generated across different regions.
+
+| Region | Revenue |
+|----------|----------|
+| Central | ₹41,288.34 |
+| East | ₹59,288.39 |
+| North | ₹50,808.31 |
+| South | ₹36,398.75 |
+| West | ₹41,408.68 |
+
+**Key Insight:** East region contributes the highest revenue among all regions.
+
+---
+
+### 2️⃣ Revenue by Category
+
+This pie chart displays revenue contribution by product category.
+
+**Key Insight:**
+
+- Electronics contributes the highest share of revenue.
+- Furniture contributes a moderate share.
+- Appliances contribute the smallest share.
+
+---
+
+### 3️⃣ Customer Segment Analysis
+
+This donut chart represents customer distribution by segment.
+
+| Segment | Percentage |
+|----------|----------|
+| Premium | 37% |
+| Standard | 36% |
+| Basic | 27% |
+
+**Key Insight:** Premium customers form the largest customer segment.
+
+---
+
+### 4️⃣ Monthly Sales Trend
+
+This line chart tracks monthly revenue performance throughout the year.
+
+**Key Insights:**
+
+- Highest sales recorded in June.
+- Strong sales performance observed in October.
+- Lowest sales recorded in November.
+- Useful for identifying seasonal demand patterns.
+
+---
+
+## 🧠 Business Insights
+
+Using this dashboard, businesses can:
+
+- Identify top-performing regions.
+- Understand category-wise revenue contribution.
+- Analyze customer segment distribution.
+- Monitor monthly sales fluctuations.
+- Improve forecasting and planning.
+- Make data-driven business decisions.
+
+---
+
+## 📂 Dataset Overview
+
+The dashboard is built using customer sales transaction data.
+
+### Dataset Fields
+
+| Column Name | Description |
+|------------|------------|
+| Order ID | Unique order identifier |
+| Customer ID | Customer identifier |
+| Customer Name | Name of customer |
+| Order Date | Date of transaction |
+| Region | Sales region |
+| Category | Product category |
+| Product Name | Product purchased |
+| Customer Segment | Customer classification |
+| Quantity | Units sold |
+| Unit Price | Price per unit |
+| Total Amount | Revenue generated |
+
+---
+
+## 🛠️ Tools & Technologies Used
+
+- Microsoft Excel
+- Pivot Tables
+- Pivot Charts
+- Slicers
+- Timeline Filters
+- Conditional Formatting
+- Excel Formulas
+
+---
+
+## 📋 How to Use
+
+1. Open the Excel Dashboard file.
+2. Use the Category Slicer to filter product categories.
+3. Use the Timeline Filter to analyze specific periods.
+4. Review KPI Cards for overall performance.
+5. Explore charts for detailed insights.
+6. Generate reports using filtered data.
+
+---
+
+## 💼 Business Applications
+
+- Sales Performance Analysis
+- Revenue Tracking
+- Regional Sales Monitoring
+- Customer Segmentation Analysis
+- Product Category Performance Evaluation
+- Business Reporting
+
+---
+
+## 📈 Project Outcome
+
+The Sales Analysis Dashboard transforms raw sales data into a visually appealing and interactive reporting solution. It enables quick analysis of revenue, customer behavior, category performance, and monthly sales trends, helping businesses make informed decisions.
+
+---
+
+## 👩‍💻 Author
 
 **Sakshi Bagul**
-*Data Science & Aspiring ML Engineer
+
+*Aspiring Data Analyst | Excel | Power BI | SQL*
